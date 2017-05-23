@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200');/*cargo*/
+
+/*-----sobre nós------*/
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #009bdb;
+	
+}
+.sobre{
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+.sobre h1{
+
+	color: #293161;
+	font-size: 95px;
+}
+.sobre p{
+   
+   font-size: 20px;
+}
+.lateral{
+	margin-top: 50px;
+	margin-bottom: 15px;
+	border-bottom: 2px solid #000000;
+}
+.lateral h4{
+  font-size: 25px;
+  color:  #000000;
+  font-family: 'Oswald', sans-serif;
+}
+.lateral2 h4{
+  font-size: 25px;
+  color:  #000000;
+  font-family: 'Oswald', sans-serif;
+}
+.lateral h5{
+	font-size: 17px;
+	font-family: 'Oswald', sans-serif;
+
+}
+.lateral2 h5{
+	font-size: 17px;
+	font-family: 'Oswald', sans-serif;
+
+}
+.img{
+
+	margin: 0 auto; 
+}
+#foto{
+	margin-top: -65px;
+}
+.icone img{
+	margin-top: 230px;
+	padding-bottom:50px; 
+	padding-left: 11px;
+}
+/*-------------------*/

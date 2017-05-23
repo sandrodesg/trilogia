@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:500'); /*menu*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); /*textos*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:500'); /*titulo h1*/
+@import url('https://fonts.googleapis.com/css?family= Roboto + Condensed'); /*rodape a missao*/
+@import url('https://fonts.googleapis.com/css?family=Economica:700'); /*rodape li*/
+
+
+
+
+
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: #fff;
+	margin:0px;
+	padding:0px;
+	overflow-x: hidden;
+}
+
+.navbar-inverse{
+    background-color: #000000;
+}
+.navbar-inverse .navbar-nav{
+	background-color: #000000;
+	height: 70px;
+
+}
+.navbar-inverse .navbar-nav>li>a{
+	font-family: 'Dosis', sans-serif;
+	color: #fff;
+	width: 100%;
+	margin: 0px;
+	padding: 20px;
+	margin-left: 0px;
+	padding-left: 1px;
+	font-size: 19px;
+	transition:color 1s;/*TEMPO DE TRANSIÇÃO DE CORES*/
+	-webkit-transition:color 2s;
+	-moz-transition:color 2s;
+	-o-transition:color 2s;
+}
+
+/*---------menu colorido-----------*/
+#home a:hover{
+  color: #00aeef;
+}
+#ikp a:hover{
+  color: #990033;
+}
+#clinica a:hover{
+  color: #1c75bc;
+}
+#stop a:hover{
+  color: #0071bc;
+}
+#escola a:hover{
+  color: #ffcf01;
+}
+#proton a:hover{
+  color: #ff6600;
+}
+#hotel a:hover{
+  color: #ff9900;
+}
+#med a:hover{
+  color: #007a88;
+}
+#clarion a:hover{
+  color: #007a88;
+}
+#projetos a:hover{
+  color: #cc0033;
+}
+#keppe a:hover{
+  color: #99cc00;
+}
+#kms a:hover{
+  color: #99cc00;
+}
+#faq a:hover{
+  color: #00aeef;
+}
+#contact a:hover{
+  color: #00aeef;
+}
+.img-min{
+	width: 294px;/*clinica e instituto*/
+}
+#logo_tri{
+	position: relative;
+
+	
+}
+h1{
+	font-family: 'Oswald', sans-serif;
+}
+p,span{
+   font-family: 'Open Sans', sans-serif;
+
+}
+#ha_mais{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    /*width: 600px;*/
+    padding-left: 20px;
+    margin-left: -30px;
+}
+a{
+	margin-right: 25px;
+	margin-bottom: 10px;
+	 font-size: 23px;
+	font-family: 'Open Sans', sans-serif;
+}
+section{
+	height: 1200px;
+}
+#icones{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: 120px; 
+	float: right;
+}
+#espaco{
+	margin: 0px;
+	padding: 0px;
+}
+.trilogia{
+	height: auto;
+}
+.footer{ 
+	height: auto;
+	background-color: #d1d3d4;
+}
+.footer ul{
+	margin-left: 15px;
+	margin-top: 25px;
+	
+}
+.footer li{
+    font-family:'Economica', sans-serif;
+	list-style: none;
+	color:#000000;
+	font-size: 15px;
+	
+}
+
+#missao{
+    margin-top: 25px;
+
+}
+#missao h4{
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+#missao h5{
+      padding:10px; 
+	 font-family: 'Open Sans', sans-serif;
+
+}
+.onborder{
+	border-right: solid 2px #fff;
+}
+#logo{
+	margin-top: 25px;
+	border-left: solid 2px #fff;
+	padding-left: 15px;
+}
+#direitos{
+    margin-top: 20px;
+	background-color: #bcbec0;
+}
+#direitos h3{
+	font-size: 13px;
+	color: #58595b;
+}
+/*responsividade por causa do menu grande*/
+@media screen and (min-width:768px) and (max-width:1280px){
+   .navbar-toggle {
+    display: none;
+  }
+@media screen and (min-width:1024px) and (max-width:768px)
+{
+     .navbar-toggle {
+    display: none;
+  }

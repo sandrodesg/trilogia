@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400');
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500'); /*questao h3*/
+
+.container{
+	/*height: 900px;*/
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #009bdb;
+	
+}
+section{
+	height: auto;
+}
+h1{
+	font-size: 170px;
+	color: #293161;
+	margin-left: 25px;
+}
+h3{
+	font-size: 30px;
+	margin-top: 20px;
+	color: #77bae8;
+	font-family: 'Oswald', sans-serif;
+
+
+}
+.questao{
+	margin-top: 20px;
+	
+	
+}
+.cont ul li{
+	font-family: 'Ubuntu', sans-serif;
+	padding-left: 5px;
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+#borda{
+
+    border-left: solid 2px #77bae8;
+}
+#borda span{
+	font-size: 20px;
+	margin-left: 15px;
+}
